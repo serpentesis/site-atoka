@@ -18,7 +18,4 @@ https://www.behance.net/gallery/37484747/tribos-do-Brasil
 
 Sobre Nós
 https://unsplash.com/photos/kY8m5uDIW7Y
--------------------------
-
-Inscreva-se na nossa newsletter e receba notícias, artigos, petições e até sorteios! É simples, apenas digite seu -email. </p>
-                
+-------------------------                
