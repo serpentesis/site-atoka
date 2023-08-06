@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos uma ONG em apoio a resistência indígena!">
+    <meta name="keywords" content="indigenas, nativos americanos, ong, atoka">
+    <meta name="author" content="Alexandra Moura//Serpentesis">
+    <title> ATOKA </title>
+    <!-- LINK ÍCONE NAV-->
+    <link rel="icon" type="image/svg" href="assets/icons/gaviao.png" />
+    <!-- LINK FRAMEWORK BOOTSTRAP *em cima do css por ser prioridade-->
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <!-- LINK ESTILO CONFIGURAÇÃO PERSONALIZADA-->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- LINK FONTAWESOME FERRAMENTA DE SVG-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center  order-lg-0" href="index.html">
+                <img width="40px" src="assets/icons/gaviao.png" alt="ATOKA">
+                <span class=" logo text-uppercase ms-3"> ATOKA </span>
+            </a>
+
+            <!-- ÍCONES -->
+            <div class="order-lg-2">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-black"></span>
+                </button>
+            </div>
+            <!-- ÍCONE MENU-->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- LINKS (REL COM O MENU EM MOBILE; -->
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#inicio"> Início </a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#peticoes"> Petições </a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#artigos"> Artigos </a>
+                    </li>
+                    <li class="nav-item px-2 py-2 border-0">
+                        <a class="nav-link text-uppercase text-dark" href="#sobrenos"> Sobre Nós </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FIM NAVBAR -->
+
+    <!-- HEADER -->
+
+    <div id="inicio">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/header-1.jpg" class="d-block w-100 .img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images//header-2.jpg" class="d-block w-100 .img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/header-3.jpg" class="d-block w-100 .img-fluid" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próxima</span>
+            </button>
+        </div>
+    </div>
+    <!-- FIM HEADER-->
+
+    <!-- CARDS -->
+    <section id="peticoes">
+        <h2> Petições </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Petição - Ação Direitos Indígenas</h5>
+                            <p class="card-text">O Ministério Público Federal moveu uma ação civil pública com o objetivo de obrigar o Estado de São Paulo a interditar os atrativos naturais chamados "Cachoeira e Prainha do Capivari", para evitar permanentemente a exploração turística por pessoas como os réus Nomee Nome, sem autorização da Comunidade Indígena da TI Tenondé-Porã.</p>
+                            <a href="https://www.jusbrasil.com.br/processos/487462704/peca-peticao-acao-direitos-indigenas-1338540210" target="_blank" class="btn btn-primary text-uppercase">Assinar esta petição</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Petição - Proteja a Amazônia </h5>
+                            <p class="card-text">A Amazônia, maior floresta tropical do mundo, está sob ameaça. O desmatamento avança a cada ano, colocando em risco ecossistemas importantes, a fauna e a flora, assim como nosso próprio futuro. É hora de mudar essa história.</p>
+                            <a href="https://www.greenpeace.org/brasil/informe-se/amazonia/" target="_blank" class="btn btn-primary text-uppercase">Assinar esta petição </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Petição ADPF 709 no Supremo</h5>
+                            <p class="card-text">Está agendado para o próximo dia 03 de agosto, o julgamento no plenário do STF, do referendo da liminar proferida pelo eminente ministro Luís Roberto Barroso, na ADPF n. 709, da Articulação dos Povos Indígena do Brasil (APIB), em conjunto com outros seis partidos políticos (PSB, REDE, PSOL, PT, PDT e PC do B), que determinou ao governo federal a adoção de medidas para conter o avanço da pandemia nos territórios indígenas.</p>
+                            <a href="https://apiboficial.org/2020/08/01/adpf-709-no-supremo-povos-indigenas-e-o-direito-de-existir/" target="_blank" class="btn btn-primary text-uppercase">Assinar esta petição</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <!-- ARTIGOS -->
+    <section id="artigos">
+
+        <h2> Artigos Recentes </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/tribo-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> A questão indígena em 4 minutos </h5>
+                            <p class="card-text">De um lado, os interesses dos povos indígenas. De outro, os interesses do agronegócio e da forma de desenvolvimento vigente no país. </p>
+                            <a href="https://www.youtube.com/watch?v=y_tKDCBimTQ&pp=ygUScGV0acOnw6NvIGluZGlnZW5h" target="_blank" class="btn btn-primary">Ver Artigo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/tribo-2.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Cosmovisão indígena e modelo de desenvolvimento </h5>
+                            <p class="card-text"> Abordando a intersecção entre a cosmovisão indígena e o modelo de desenvolvimento adotado pela sociedade contemporânea.
+                            </p>
+                            <a href="https://cimi.org.br/cosmovisao-indigena-e-modelo-de-desenvolvimento/" target="_blank" class="btn btn-primary">Ver Artigo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/tribo-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Como é feita a demarcação de terras indígenas </h5>
+                            <p class="card-text"> Aqui aborda-se como é realizada a demarcação das terras indígenas, além de por quem e como são protegidas.
+                            </p>
+                            <a href="https://cimi.org.br/terras-indigenas/demarcacao/" target="_blank" class="btn btn-primary">Ver Artigo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- FIM ARTIGOS -->
+
+    <br><br><br>
+
+    <!-- SOBRE NÓS -->
+    <section>
+        <h2 id="sobre-nos"> Sobre Nós </h2>
+    </section>
+    <section id="sobrenos" class="py-5">
+        <div class="container">
+            <div class="row gy-lg-5 align-items-center">
+                <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                    <!-- <div class="title pt-3 pb-3">
+                        <h2 class="position-relative d-inline-block ms-1">Sobre Nós</h2>
+                    </div> -->
+                    <p class="texto lead text-muted">Um pouquinho dos protagonistas por trás do <span style="font-family: var(--fonte-logo);"> ATOKA </span> </p>
+                    <p class="texto"> Respirando culturas e cada um vindo de um local de muitas histórias, a ONG <span style="font-family: var(--fonte-logo); color: brown;"> Atoka </span> tem o objetivo de representar, acolher, ajudar e compartilhar causas, demandas e notícias sobre as diversas tribos indígenas nativas do Brasil. Realizamos nosso trabalho com muito amor, dedicação, luta e resistência e o melhor: você também pode fazer parte dessa equipe! </p>
+                </div>
+                <div class="col-lg-6 order-lg-0">
+                    <img style="border-radius: 16px;" src="assets/images/sobre-nos.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIM SOBRE NÓS -->
+
+
+    <!-- NEWSLETTER -->
+
+    <section id="newsletter" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class=" text-center text-lg-center">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <div class="title text-center pt-3 pb-5">
+                            <h2 class="position-relative d-inline-block ms-4"> Fique Atento! </h2>
+                        </div>
+
+                        <p class=" texto lead text-muted"> Inscreva-se na nossa newsletter e receba notícias, artigos, petições e até sorteios! <br> É simples, apenas digite seu e-mail. </p>
+                        <div class="input-group mb-3 mt-3">
+                            <input type="text" class="form-control" placeholder="Digite seu melhor e-mail...">
+                            <button class="btn btn-primary" type="submit">Inscrever</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FIM NEWSLETTER-->
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row text-white g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a style="font-family: var(--fonte-logo);" class="text-uppercase text-decoration-none brand texto-footer" href="index.html">Atoka</a>
+                    <p class=" text-white mt-3">Ajudando a resgatar e preservar as culturas indígena!</p>
+                </div>
+
+                <div class="col-md-2 col-lg-3">
+                    <h5 class="fw-normal texto-footer">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#inicio" class="text-white text-decoration-none ">
+                                <i class="fas fa-arrow-right me-1"></i> Início
+                            </a>
+                        </li>
+                        <li class=" my-3">
+                            <a href="#peticoes" class=" text-decoration-none text-white ">
+                                <i class="fas fa-arrow-right me-1"></i> Petições
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#artigos" class=" text-decoration-none text-white">
+                                <i class="fas fa-arrow-right me-1"></i> Artigos
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#sobrenos" class=" text-decoration-none text-white">
+                                <i class="fas fa-arrow-right me-1"></i> Sobre Nós
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <h5 class="fw-normal mb-3 texto-footer"> Contato </h5>
+                    <div class="d-flex justify-content-start align-items-start my-2">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-normal">
+                            Rua Tupí, Salvador, BA, Brasil
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 ">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-normal">
+                            atoka.contato@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 ">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-normal">
+                            +55 (71) 9XXXX-XXXX
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="fw-normal mb-3 texto-footer">Siga-nos</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+
+                            <li>
+                                <a href="#" class="text-white text-decoration-none fs-4 me-4">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <p class="row-cols-lg-2">
+                        <br>
+                        <b> <span style="font-family: var(--fonte-logo);">Atoka</span> © Todos os Direitos Reservados. </b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- FIM FOOTER -->
+
+
+    <!-- FRAMEWORK JQuery -->
+    <script src="assets/js/jquery-3.7.0.js"></script>
+    <!-- BOOTSTRAP DO JS -->
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <!-- MEU SCRIPT-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
